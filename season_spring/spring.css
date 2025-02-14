@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+/*ページ全体*/
+body{
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+
+/*ヘッダー*/
+
+.header-img {
+    width: 100%;
+    height: 700px;
+    background-image: url(/Users/a9013/Desktop/spring.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.header-img a {
+    text-decoration: none;
+}
+.top-title {
+    font-size: 32px;
+    padding: 20px 0 0 35px;
+    color: #fff;
+    text-shadow: -7px 0px 0px rgba(232, 145, 221, 0.75);    
+}
+
+
+.header-nav {
+    width: 100%;
+}
+.ul-header {
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.li-header {
+    height: 30px;
+    letter-spacing: 5px;
+    padding: 0,0,0,0;
+    margin: 30px;
+}
+
+.li-header a {
+    color: black;
+}
+
+.header-group {
+    height: px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 75px 0;
+}
+
+
+
+@media screen and (max-width:900px){
+    
+
+ /*ヘッダー・ハンバーガー*/
+    
+.header-group {
+    display: none;
+}    
+
+.hamburger-group {
+    height: 300px;
+    width: 100%;    
+}
+.hamburger-color {
+    height: 40px;
+    width: 40px;
+    background-color: #E891DD;
+    border-radius: 15px;
+    float: right;
+    margin: 30px 30px 0 0;
+}
+.hamburger-mene {
+    align-items: center;
+    padding: 10px 0 0 0;
+    margin-left: 5px;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    align-items: center;
+}
+
+.hamburger div {
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+}
+
+/*セクション１ 900以下*/
+
+.section-start {
+    width: 100%;
+}
+
+
+
+}
+/*///////////*/
+/*メイン*/
+
+/*Philosophy*/
+.section-start-img {
+    background-image: url(/Users/a9013/Desktop/siro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 50px center;
+    height: 400px;
+    width: 800px;
+}
+
+.section-start-span {
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin: 0 0 0 670px;    
+}
+
+
+.text-1{
+    width: 410px;
+    height: 200px;
+    display: flex;
+    margin: 0 0 0 770px;
+    padding: 110px 0 0 50px;
+    font-size: 19px;
+    line-height: 2.7;
+}
+.text-2 {
+    width: 580px;
+    height: 70px;
+    display: flex;
+    margin: 7px 0 0 650px;
+    font-size: 19px;
+    letter-spacing: 3px;
+    line-height: 2.7;
+}
+/*concept*/
+.section-second {
+    width: 100%;
+    position: relative;
+}
+
+.section-second h1 {    
+    font-size: 65px;
+    margin: 250px 0 150px 50px;  
+}
+
+.section-second-img {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0 50px 0 0;
+    gap: 25px;
+}
+
+.section-second-img2 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0 25px 0 0;
+    gap: 25px;
+}
+
+.section-second-img3 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0 50px 0 0;
+    gap: 25px;
+}
+.concept-img {
+    width: 300px;
+    height: 200px;
+}
+
+.img-group {
+    margin: 50px 0 150px 500px;
+}
+
+.img-group-2 {
+    margin: 50px 0 150px 50px;
+}
+
+
+.img-group-3 {
+    margin: 50px 0 150px 500px;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
